@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body{
   color: #40514e;
   margin: 0;
@@ -10,17 +6,19 @@ body{
 }
 
 h1{
+  color:#66BFBF;
   margin-top: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  color:#66BFBF;
+  
 }
 
 h2{
-  font-size: 2.5rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
   color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 20px;
   padding-bottom: 10px;
 }
 
@@ -35,7 +33,7 @@ hr{
   border-width: 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 p{
@@ -45,16 +43,9 @@ p{
 a{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  margin: 20px 20px;
+  margin: 10px 20px;
   text-decoration: none;
 }
-
-a:hover{
-  color: #EAF6F6;
-}
-
-
-
 
 
 .contact-message{
@@ -69,7 +60,7 @@ a:hover{
 }
 
 .intro{
-  width: 40%;
+  width: 30%;
   margin: auto;
 }
 
@@ -83,22 +74,13 @@ a:hover{
   padding-top: 100px;
 }
 
-#introduction, #my-skills, #life{
-  margin: 50px 0;
-}
-
-.contact{
-  margin: 100px 0;
-}
-
-
 .middle-container{
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .bottom-container{
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 30px 0 10px;
 }
 
 .top-cloud{
@@ -135,17 +117,6 @@ a:hover{
   margin-left: 30px;
 }
 
-.life-block{
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-}
-
-
-#contact{
-  margin: 100px 0;
-}
-
 .btn {
   background: #11CDD4;
   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
@@ -158,12 +129,12 @@ a:hover{
   border-radius: 8px;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.btn:hover {
+/* .btn:hover {
   border: solid #337FED 0px;
   background: #30E3CB;
   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
@@ -175,5 +146,5 @@ a:hover{
   -moz-border-radius: 8px;
   border-radius: 8px;
   text-decoration: none;
-}
+} */
 
