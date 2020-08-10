@@ -1,215 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curriculum Vitae</title>
   <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-  <table cellspacing = 10>
-    <tr>
-      <!-- <td><img src="images/WentaoWu.png" width=150px></td> -->
-      <td><h1>Wentao Wu</h1>
-        <p><em>Student at Stony Brook University</em></p>
-        <p><em>Department of Computer Science</em></p>
-        <a class="portfolio-link" download="WentaoWu_Resume_07/20.pdf"><span class="pro">Download Resume</span></a>
-      </td>
-    </tr>
-  </table>
-  <hr>
 
-  <h3>Education</h3>
-  <table cellspacing=15>
-    <tr>
-      <td>Doctorate</td>
-      <td>Environmental Engineering</td>
-      <td>Nankai University & Pennsylvania State University</td>
-      <td>December 2015</td>
-    </tr>
-    <tr>
-      <td>Master</td>
-      <td>Computer Science</td>
-      <td>Stony Brook University</td>
-      <td>December 2020 Expected</td>
-    </tr>
-    <tr>
-      <td>Bachelor</td>
-      <td>Environmental Science</td>
-      <td>Nankai University</td>
-      <td>June 2009</td>
-    </tr>
-  </table>
+  <div class="cv-top-container">
+    <img class="cv-top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h3>Wentao Wu</h3>
+    <p><em>Department of Computer Science, Stony Brook University</em></p>
+    <a download href="files/WentaoWu_Resume.pdf"><span class="pro">Download Resume</span></a>
+    <img class="cv-bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <!-- <img src="images/mountain.png" alt="mountain-img"> -->
+  </div>
+
+  <div class="cv-middle-container">
+
+    <br>
+    <h2>Education.</h2>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-1">
+        <h3>PHD</h3>
+      </div>
+      <div class="col-sm-5" sytle="text-align:left;">
+        <p>Environmental Engineering, Nankai University, 2015</p>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-1">
+        <h3>MS</h3>
+      </div>
+      <div class="col-sm-5" sytle="text-align:left;">
+        <p>Computer Science, Stony Brook University, December 2020 (Expected)</p>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-1">
+        <h3>BS</h3>
+      </div>
+      <div class="col-sm-5" sytle="text-align:left;">
+        <p>Environmental Science, Nankai University, 2009</p>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
 
 
-  <hr>
-  <h3>TECHNICAL SKILLS</h3>
-  <p>Areas include Data Analysis, Data Structures and Algorithm Analysis, Java Software Programming, and Web Development.</p>
-  <table cellspacing = 10>
-    <!-- <thead>
+    <!-- <table class="table table-borderless" style="margin-left: 100px;margin-right:100px;" cellspacing=15>
       <tr>
-        <th>Programming Language</th>
-        <th>Platforms/Tools</th>
+        <td>PHD</td>
+        <td>Environmental Engineering</td>
+        <td>Nankai University</td>
+        <td>December 2015</td>
       </tr>
-    </thead>
-    <tr>
-      <td>Data Analysis</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>Web Development</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>Algorithm Analysis</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-      <td>Java Software Programming</td>
-      <td>⭐️⭐️⭐️⭐️⭐️</td>
-    </tr> -->
-  <p>Programming Language: Java, Python, C, MySQL, PHP, HTML/CSS/JavaScript</p>
-  <p>Platforms/Tools: Linux/Unix, MacOS, Git, Flask, Hadoop, Spark, JDBC, LaTex</p>
-
-
-  </table>
-
-
-
-  <hr>
-  <h3>Relevant Experience</h3>
-  <table cellspacing = 10>
-    <thead>
       <tr>
-        <th>Time</th>
-        <th>Institute</th>
-        <th>Title</th>
-        <th>Project</th>
-        <th>Achievements</th>
+        <td>MS</td>
+        <td>Computer Science</td>
+        <td>Stony Brook University</td>
+        <td>December 2020 Expected</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td>01/2020 - Present</td>
-        <td>Data Science Lab, Stony Brook University</td>
-        <td>Research Assistant</td>
-        <td>Political Polarization and Marriage Project (Python)</td>
-        <td>
-          <p>
-            ●	Analyzed and ETL raw data from over twenty US States’ voting registration in 8 consecutive years
-            <br>●	Designed and developed a multi-identifier model for couple marriage identification from the voter information
-            <br>●	Computed factors that affect marriage by tracking couples’ status and party affiliation history
-        </td>
+        <td>BS</td>
+        <td>Environmental Science</td>
+        <td>Nankai University</td>
+        <td>June 2009</td>
       </tr>
-
-      <tr>
-        <td>01/2020 - Present</td>
-        <td>Data Science Lab, Stony Brook University</td>
-        <td>Research Assistant</td>
-        <td>Measuring and Mitigating Animosity toward AI Systems and Science Project (Full-stack Developer)</td>
-        <td>
-          <p>
-            ●	Designed two survey sites to gauge public’s attitude toward AI (Bootstrap4, CSS, MySQL, PHP, D3.js)
-            <br>  1)	Designed and Developed a re-offend prediction game based on COMPASS criminal defendants database 
-            <br>  2)	Designed and Developed a weather prediction game in multi-level AI assistant modes, with frontend user interface and interaction implemented in JavaScript and D3.js 
-            <br>●	The project is currently deployed in SBU’s  Linux server for testing with public access
-        </td>
-      </tr>
-
-      <tr>
-        <td>09/2013 - 03/2015</td>
-        <td>Bioconversion Lab, Pennsylvania State University</td>
-        <td>Research Assistant</td>
-        <td>Sustainable Bioresources System Modeling</td>
-        <td>
-          <p>
-            ●	Extracted and processed historical hydrological/meteorological data for sustainable bioresource system model testing (Python)
-            <br> 
-            ●	Designed and Implemented a mathematical model for energy/chemicals production/yield from bio-energy plants
-        </td>
-      </tr>
+    </table> -->
 
 
-   
+    <hr>
+    <h2>TECHNICAL SKILLS.</h2>
+    <!-- <p>Areas include Data Analysis, Data Structures and Algorithm Analysis, Java Software Programming, and Web
+      Development.</p>
+      <p>Programming Language: Java, Python, C, MySQL, PHP, HTML/CSS/JavaScript</p>
+      <p>Platforms/Tools: Linux/Unix, MacOS, Git, Flask, Hadoop, Spark, JDBC, LaTex</p>
+    </table> -->
+    <div class="skill-row">
+      <img class="skill1-image" src="images/language.png" alt="skills-image">
+      <h3>Programming Languages</h3>
+      <p>Java, Python, C</p>
+      <p>MySQL, PHP</p>
+      <p>HTML/CSS/JavaScript</p>
+    </div>
 
-    </tbody>
-  </table>
+    <div class="skill-row">
+      <img class="skill1-image" src="images/platform.png" alt="skills-image">
+      <h3>Platforms/Tools</h3>
+      <p>Linux/Unix, MacOS</p>
+      <p>Git, Flask</p>
+      <p>Hadoop, Spark, JDBC, LaTex</p>
+    </div>
 
 
 
-  <hr>
-  <h3>Project Experience</h3>
-  <table cellspacing = 10>
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>Project</th>
-        <th>Achievements</th>
-      </tr>
-    </thead>
-    <tbody>
 
-      <tr>
-        <td>02/2020 - 05/2020</td>
-        <!-- <td><a href="network.html">Software Development for Optimizations in Biomolecular Simulations</a></td> -->
-        <td>Software Development for Optimizations in Biomolecular Simulations</td>
-        <td>●	Implemented macromolecular sampling, forces and energy computation algorithms (C language).
-          <br>
-          ●	Developed a multidimensional optimization algorithm based on Metropolis Monte Carlo search for simulation of protein-protein interactions
+    <hr>
+    <h2>Relevant Experience.</h2>
+    <div class="skill-row">
+      <img class="skill1-image" src="images/sbu.png" alt="skills-image">
+      <h3>Graduate Research Assistant</h3>
+      <p>01/2020 - present</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h5>Project 1: Political Polarization and Marriage Project (Python)</h5>
+      <p>● Analyzed and ETL raw data from over twenty US States’ voting registration in 8 consecutive years.</p>
+      <p>● Designed and developed a multi-identifier model for couple marriage identification from the voter
+        information.</p>
+      <p>● Computed factors that affect marriage by tracking couples’ status and party affiliation history.</p>
+
+      <h5>Project 2: Measuring and Mitigating Animosity toward AI Systems and Science Project (Full-stack Developer)</h5>
+      <p>● Designed two survey sites to gauge public’s attitude toward AI (Bootstrap4, CSS, MySQL, PHP, D3.js).</p>
+      <p>1) Designed and Developed a re-offend prediction game based on COMPASS criminal defendants database.</p>
+      <p>2) Designed and Developed a weather prediction game in multi-level AI assistant modes, with frontend
+        user interface and interaction implemented in JavaScript and D3.js.</p>
+        <p>● The project is currently deployed in SBU’s Linux server for testing with public access.</p>
+    </div>
+
+    <div class="skill-row">
+      <img class="skill1-image" src="images/psu.png" alt="skills-image">
+      <h3>Research Assistant</h3>
+      <p>09/2013 - 03/2015</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h5>Project: Sustainable Bioresources System Modeling</h5>
+      <p>● Extracted and processed historical hydrological/meteorological data for sustainable bioresource system
+        model testing (Python).</p>
+      <p>● Designed and developed a multi-identifier model for couple marriage identification from the voter
+        information.</p>
+      <p>● Designed and Implemented a mathematical model for energy/chemicals production/yield from bio-energy
+        plants.</p>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <table class="table table-borderless" cellspacing=10>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Institute</th>
+          <th>Title</th>
+          <th>Project</th>
+          <th>Achievements</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01/2020 - Present</td>
+          <td>Data Science Lab, Stony Brook University</td>
+          <td>Research Assistant</td>
+          <td>Political Polarization and Marriage Project (Python)</td>
+          <td>
+            <p>
+              ● Analyzed and ETL raw data from over twenty US States’ voting registration in 8 consecutive years
+              <br>● Designed and developed a multi-identifier model for couple marriage identification from the voter
+              information
+              <br>● Computed factors that affect marriage by tracking couples’ status and party affiliation history
           </td>
-      </tr>
-      <tr>
-        <td>11/2019</td>
-        <td>Network Traffic Initial Window Measurement Trend Tracking</td>
-        <td>●	Implemented macromolecular sampling, forces and energy computation algorithms (C language).
-          <br>
-          ●	Developed a multidimensional optimization algorithm based on Metropolis Monte Carlo search for simulation of protein-protein interactions
+        </tr>
+
+        <tr>
+          <td>01/2020 - Present</td>
+          <td>Data Science Lab, Stony Brook University</td>
+          <td>Research Assistant</td>
+          <td>Measuring and Mitigating Animosity toward AI Systems and Science Project (Full-stack Developer)</td>
+          <td>
+            <p>
+              ● Designed two survey sites to gauge public’s attitude toward AI (Bootstrap4, CSS, MySQL, PHP, D3.js)
+              <br> 1) Designed and Developed a re-offend prediction game based on COMPASS criminal defendants database
+              <br> 2) Designed and Developed a weather prediction game in multi-level AI assistant modes, with frontend
+              user interface and interaction implemented in JavaScript and D3.js
+              <br>● The project is currently deployed in SBU’s Linux server for testing with public access
           </td>
-      </tr>
+        </tr>
 
-      <tr>
-        <td>02/2020 - 05/2020</td>
-        <td>Simulated Linux Kernel Development</td>
-        <td>
-          <p>●	Implemented a Linux kernel system call with message encryption/decryption function (C, GDB)</p>
-          <br>
-          ●	Incorporated a process scheduling policy based on real-time earliest deadline first scheduling
-          <br>
-          ●	Implemented a virtual file system, which could recursively create directories/files for task information storage
-        </td>
-      </tr>
-
-      <tr>
-        <td>09/2019 - 11/2020</td>
-        <td>Software Development for Optimizations in Biomolecular Simulations</td>
-        <td>●	Implemented macromolecular sampling, forces and energy computation algorithms (C language).
-          <br>
-          ●	Developed a multidimensional optimization algorithm based on Metropolis Monte Carlo search for simulation of protein-protein interactions
+        <tr>
+          <td>09/2013 - 03/2015</td>
+          <td>Bioconversion Lab, Pennsylvania State University</td>
+          <td>Research Assistant</td>
+          <td>Sustainable Bioresources System Modeling</td>
+          <td>
+            <p>
+              ● Extracted and processed historical hydrological/meteorological data for sustainable bioresource system
+              model testing (Python)
+              <br>
+              ● Designed and Implemented a mathematical model for energy/chemicals production/yield from bio-energy
+              plants
           </td>
-      </tr>
+        </tr>
+      </tbody>
+    </table> -->
 
-      <tr>
-        <td>03/2019 - 05/2019</td>
-        <td>Zillow Data Analysis and Visualization Web Application</td>
-        <td>●	Developed a web application that converts Zillow US house sales data into an interactive visualization service (Python, Pandas, Flask, d3.js)
-          <br>
-          ●	Implemented the house sales prediction with Keras deep learning library.          
+
+
+    <!-- <hr> -->
+    <!-- <h3>Project Experience</h3>
+    <table class="table table-borderless" cellspacing=10>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Project</th>
+          <th>Achievements</th>
+        </tr>
+      </thead>
+      <tbody> -->
+
+    <!-- <tr>
+          <td>02/2020 - 05/2020</td>
+          <td>Software Development for Optimizations in Biomolecular Simulations</td>
+          <td>● Implemented macromolecular sampling, forces and energy computation algorithms (C language).
+            <br>
+            ● Developed a multidimensional optimization algorithm based on Metropolis Monte Carlo search for simulation
+            of protein-protein interactions
           </td>
-      </tr>
-
-      <tr>
-        <td>03/2019 - 05/2019</td>
-        <td>Programming Language Design</td>
-        <td>●	Implemented a programming language (SBML) by simulating SML syntax and semantics (Python Lex and Yacc)
-          <br>
-          ●	All basic statements and functionalities are implemented: data types, operations, error check, and functions          
+        </tr> -->
+    <!-- <tr>
+          <td>11/2019</td>
+          <td>Network Traffic Initial Window Measurement Trend Tracking</td>
+          <td>● Implemented macromolecular sampling, forces and energy computation algorithms (C language).
+            <br>
+            ● Developed a multidimensional optimization algorithm based on Metropolis Monte Carlo search for simulation
+            of protein-protein interactions
           </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr> -->
 
-  
+    <!-- <tr>
+          <td>02/2020 - 05/2020</td>
+          <td>Simulated Linux Kernel Development</td>
+          <td>
+            <p>● Implemented a Linux kernel system call with message encryption/decryption function (C, GDB)</p>
+            <br>
+            
+            <br>
+            
+          </td>
+        </tr> -->
+
+
+    <!-- <tr>
+          <td>03/2019 - 05/2019</td>
+          <td>Zillow Data Analysis and Visualization Web Application</td>
+          <td>● Developed a web application that converts Zillow US house sales data into an interactive visualization
+            service (Python, Pandas, Flask, d3.js)
+            <br>
+            ● Implemented the house sales prediction with Keras deep learning library.
+          </td>
+        </tr> -->
+
+    <!-- <tr>
+          <td>03/2019 - 05/2019</td>
+          <td>Programming Language Design</td>
+          <td>● Implemented a programming language (SBML) by simulating SML syntax and semantics (Python Lex and Yacc)
+            <br>
+            ● All basic statements and functionalities are implemented: data types, operations, error check, and
+            functions
+          </td>
+        </tr>
+      </tbody>
+    </table> -->
+
+
+    <hr id="skill-block">
+    <section id="my-skills">
+      <h2>Projects.</h2>
+      <div class="skill-row">
+        <img class="skill1-image" src="images/molecule.png" alt="skills-image">
+        <h3>Software Development for Optimizations in Biomolecular Simulations</h3>
+        <p>02/2020 - 05/2020</p>
+        <p>● Implemented macromolecular sampling, forces and energy computation algorithms (C language).</p>
+        <br>
+        <p>● Developed a multidimensional optimization algorithm based on Metropolis Monte Carlo search for simulation
+          of protein-protein interactions.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill2-image" src="images/hub.png" alt="skills-image">
+        <h3>Network Traffic Initial Window Measurement Trend Tracking</h3>
+        <p>11/2019</p>
+        <p>● Developed an internet communication monitor for dissecting HTTP and TCP traffics (Python, TCPdump).</p>
+        <p>● Probed the Majestic top 1 million websites TCP’s initial window configurations for IW10 trend investigation
+          (implemented with tool: Zmap module).</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill1-image" src="images/linux.png" alt="skills-image">
+        <h3>Simulated Linux Kernel Development</h3>
+        <p>02/2020 - 05/2020</p>
+        <p>● Developed an internet communication monitor for dissecting HTTP and TCP traffics (Python, TCPdump).</p>
+        <p>● Probed the Majestic top 1 million websites TCP’s initial window configurations for IW10 trend investigation
+          (implemented with tool: Zmap module).</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill2-image" src="images/big-data.png" alt="skills-image">
+        <h3>Zillow Data Analysis and Visualization Web Application</h3>
+        <p>03/2019 - 05/2019</p>
+        <p>● Developed a web application that converts Zillow US house sales data into an interactive visualization
+          service (Python, Pandas, Flask, d3.js)</p>
+        <p>● Implemented the house sales prediction with Keras deep learning library.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill1-image" src="images/language2.png" alt="skills-image">
+        <h3>Programming Language Design</h3>
+        <p>03/2019 - 05/2019</p>
+        <p>● Implemented a programming language (SBML) by simulating SML syntax and semantics (Python Lex and Yacc).</p>
+        <p>● All basic statements and functionalities are implemented: data types, operations, error check, and
+          functions.</p>
+
+      </div>
+
+
+
+    </section>
+
+
+
+  </div>
+
+
 </body>
+
 </html>
