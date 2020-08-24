@@ -175,3 +175,13 @@ th{
 .cv-middle-container{
   margin: 20px 0;
 }
+
+
+
+.family-middle-container{
+  padding: 50px 0 100px;
+}
+.family-image{
+  width: 30%;
+  float: middle;
+}
