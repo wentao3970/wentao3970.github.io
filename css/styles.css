@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
   color: #40514e;
   margin: 0;
@@ -38,8 +41,9 @@ hr{
   border-width: 6px;
   border-bottom: none;
   width: 3%;
-  margin: 80px auto;
+  margin: 120px auto;
 }
+
 
 p{
   font-family: 'Montserrat', sans-serif;
@@ -64,11 +68,6 @@ a{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-
-.intro{
-  width: 30%;
-  margin: auto;
 }
 
 .pro{
@@ -130,16 +129,12 @@ a{
 }
 
 
-
-
-
-
-
 .skill-row{
-  width: 50%;
+  width: 40%;
   margin: 100px auto;
   text-align: left;
 }
+
 
 .skill1-image{
   width: 20%;
@@ -208,4 +203,16 @@ th{
 .family-image{
   width: 500px;
   float: middle;
+}
+
+
+
+#intro{
+  width: 30%;
+  margin: auto;
+}
+
+#cv-block,  #project-block, #family-block, #hobby-block{
+  width: 40%;
+  margin: auto;
 }
